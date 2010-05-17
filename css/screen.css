@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #CCC;
+  display: block;
+  margin: 0 auto;
+  width: 980px;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 18px;
+  line-height: 1.4em;
+  color: #000;
+}
+
+.clear {
+  clear: both;
+  overflow: hidden;
+  height: 1px;
+}
