@@ -13,7 +13,19 @@
     <![endif]-->
   	<title>Screwdriver :: {{ page.title }}</title>
   </head>
-  <body {% if page.location %}id="{{ page.location }}"{% endif %}>
-    {{ content }}
+  <body>
+    <header class='outer'>
+      <div id='top' class='inner'>
+      </div>
+    </header>
+    <section class='outer'>
+      <article class='inner'>
+        {% for post in site.posts limit:1 %}
+        {{ post.content }}
+        {% endfor %}
+      </article>
+    </section>
+    <footer class='foot'>
+    </footer>
   </body>
 </html>
