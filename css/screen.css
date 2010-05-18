@@ -95,7 +95,7 @@ header {
 }
 
 #top {
-  background: url('/images/global/header.jpg') no-repeat;
+  background: url('../images/global/header.jpg') no-repeat;
   height: 135px;
 }
 
