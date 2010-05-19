@@ -42,12 +42,21 @@ a:visited {
   background: none;
   text-decoration: none;
   border-bottom: 1px dotted;
-  color: #fb6a25;
+  color: #FB6A25;
 }
 
 a:hover, 
 a:active {
   border-bottom: 1px solid;
+}
+
+ul {
+  line-height: 1.8em;
+  list-style: none;
+}
+
+li {
+  display: list-item;
 }
 
 
@@ -116,6 +125,17 @@ article img {
 }
 
 footer {
-  background-color: white;
-  height: 30px;
+  display: block;
+  overflow: hidden;
+  color: #848788;
+}
+
+footer a:link, 
+footer a:visited {
+  float: right;
+}
+
+
+.orange {
+  color: #FB6A25;
 }

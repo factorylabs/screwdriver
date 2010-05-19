@@ -5,13 +5,13 @@
     <meta content="en-us" http-equiv="Content-Language" />
     <meta content="Happy Times with Factory Design Labs Interactive Service Department" name="description" />
     <meta name="author" content="Factory Design Labs" />
-    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <link href="css/screen.css" rel="stylesheet" type="text/css" media="screen, projection" />
-    <!-- <link rel="alternate" type="application/atom+xml" title="mkitt" href="http://feeds.feedburner.com/mkitt" /> -->
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="/css/screen.css" rel="stylesheet" type="text/css" media="screen, projection" />
+    <link rel="alternate" type="application/atom+xml" title="Factory Design Labs" href="http://feeds.feedburner.com/factory-design-labs" />
     <!--[if IE]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-  	<title>Screwdriver :: {{ page.title }}</title>
+  	<title>Factory Design Labs :: Screwdriver :: {{ page.title }}</title>
   </head>
   <body>
     <header class='outer'>
@@ -20,12 +20,29 @@
     </header>
     <section class='outer'>
       <article class='inner'>
-        {% for post in site.posts limit:1 %}
-        {{ post.content }}
-        {% endfor %}
+        {{ content }}
       </article>
     </section>
     <footer class='foot'>
+      <div class='inner'>
+        Factory Design Labs <span class='orange'>|</span> 158 Fillmore St. <span class='orange'>|</span> Denver <span class='orange'>|</span> CO <span class='orange'>|</span> 80206{{ page.footer }}
+      </div>
     </footer>
+<!--    
+    <script language='javascript' type='text/javascript'>
+      var url = document.location.href;
+      var uid = url.substring(7, url.length);
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script language='javascript' type='text/javascript'>
+      try{
+      var pageTracker = _gat._getTracker("UA-11436813-2");
+      pageTracker._setDomainName("screwdriver.factorylabs.com");
+      pageTracker._trackPageview( uid );
+      }
+      catch( err ){}
+    </script>
+-->
   </body>
 </html>

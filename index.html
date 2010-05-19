@@ -1,0 +1,9 @@
+---
+layout: default
+title: May
+location: May
+footer: <a href="/archive.html">View Archives</a>
+---
+{% for post in site.posts limit:1 %}
+{{ post.content }}
+{% endfor %}
