@@ -1,10 +1,10 @@
 ---
 layout: post
-footer: <a href="/archive.html">View Archives</a>
+footer: <a href="/screwdriver/archive.html">View Archives</a>
 ---
 ## April ##
 
-![screwdriver](/images/2010-06-01/fpo.jpg)
+![screwdriver](/screwdriver/images/2010-06-01/fpo.jpg)
 
 ###### Client // Project ######
 
