@@ -13,28 +13,15 @@ body {
   color: #333;
 }
 
-.outer,
-.inner,
-.foot {
+.body {
   clear: both;
   display: block;
-  overflow: hidden;
   margin: 0 auto; 
   width: 600px;
 }
 
-.inner {
-  width: 560px;
-}
-
-.foot {
-  margin: 10px auto;
-}
-
-.clear {
-  clear: both;
-  overflow: hidden;
-  height: 1px;
+.orange {
+  color: #FB6A25;
 }
 
 a:link, 
@@ -99,22 +86,25 @@ h6 {
   line-height: 1.4em;
 }
 
-header {
-  margin: 20px;
+header,
+section,
+article, 
+footer {
+  display: block;
+  overflow: hidden;
 }
 
-#top {
-  background: url('../images/global/header.jpg') no-repeat;
-  height: 135px;
+header {
+  margin: 0 20px;
 }
 
 section {
   background-color: white;
-  margin: 20px;
 }
 
 article {
   background-color: white;
+  margin: 0 20px;
   padding: 10px 0;
 }
 
@@ -125,17 +115,11 @@ article img {
 }
 
 footer {
-  display: block;
-  overflow: hidden;
+  margin: 10px 20px;
   color: #848788;
 }
 
 footer a:link, 
 footer a:visited {
   float: right;
-}
-
-
-.orange {
-  color: #FB6A25;
 }
